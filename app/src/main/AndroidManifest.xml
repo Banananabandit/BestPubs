@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BestPubs">
         <activity
+            android:name=".AddPubActivity"
+            android:screenOrientation="portrait"
+            android:label="ADD PUB"
+            android:theme="@style/CustomNoActionBarTheme"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
