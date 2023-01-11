@@ -14,14 +14,14 @@
         <!-- Customize your theme here. -->
     </style>
     
-    <style name="CustomNoActionBarTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="CustomNoActionBarTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:statusBarColor">
             @color/coral
         </item>
     </style>
 
     <style name="CustomToolbarStyle" >
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/pinkish_light_brown</item>
+        <item name="android:colorControlNormal">@color/pinkish_light_brown</item>
     </style>
 </resources>
